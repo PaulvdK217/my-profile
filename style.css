@@ -1,0 +1,90 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Profile image */
+#profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+}
+
+/* Main heading */
+h1 {
+  font-size: 2.5em;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+/* Description */
+p {
+  font-size: 1.1em;
+  margin: 15px 0;
+  color: #555;
+}
+
+/* Section headings */
+h2 {
+  color: #2563eb;
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+/* Passions styling */
+h3 {
+  color: #10b981;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+/* Emojis slightly larger */
+.emoji {
+  font-size: 1.3em;
+}
+
+/* Link styling */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Social icons list */
+ul.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+ul.social-links li {
+  display: inline-block;
+}
+
+ul.social-links img {
+  width: 30px;
+  height: 30px;
+}
